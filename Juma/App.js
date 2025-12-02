@@ -30,7 +30,7 @@ export default function App() {
             headerShown: false,
           }}
         >
-          {/* <Stack.Screen name="Loading">
+          <Stack.Screen name="Loading">
             {props => (
               <LoadingScreen
                 {...props}
@@ -81,7 +81,7 @@ export default function App() {
                 }}
               />
             )}
-          </Stack.Screen> */}
+          </Stack.Screen>
 
           <Stack.Screen name="Home">
             {props => <HomeScreen {...props} userProfile={userProfile} />}
